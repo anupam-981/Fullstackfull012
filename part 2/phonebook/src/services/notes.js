@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const baseUrl = 'https://fullstackback-arcu.onrender.com/api/notes'; // Corrected URL
+const baseUrl = 'https://fullstackback-arcu.onrender.com/api/persons'; // Add "/api/persons"
+ // Corrected URL
 
 const getAll = () => axios.get(baseUrl);
 const create = (newObject) => axios.post(baseUrl, newObject);
